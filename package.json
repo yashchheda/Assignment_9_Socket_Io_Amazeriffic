@@ -1,0 +1,26 @@
+{
+  "name": "Assignment_9_Socket_Io_Amazeriffic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "socket.io": "^1.3.5",
+    "mongoose": "^3.6.20",
+    "express": "^3.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yashchheda/Assignment_9_Socket_Io_Amazeriffic.git"
+  },
+  "author": "Yash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashchheda/Assignment_9_Socket_Io_Amazeriffic/issues"
+  },
+  "homepage": "https://github.com/yashchheda/Assignment_9_Socket_Io_Amazeriffic"
+}
