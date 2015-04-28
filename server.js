@@ -31,7 +31,7 @@ io.on("connection", function(socket) {
     socket.on("add", function(data) {
         // sending back to every user and the sender too
         console.log("Broadcast Emit");
-        socket.broadcast.emit("newToDO", data);
+        io.sockets.emit("newToDO", data);
     });
 });
 
